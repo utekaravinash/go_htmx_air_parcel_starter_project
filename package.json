@@ -1,0 +1,19 @@
+{
+  "name": "go_htmx_air_parcel_starter_project",
+  "version": "1.0.0",
+  "repository": "git@github.com:utekaravinash/go_htmx_air_parcel_starter_project.git",
+  "author": "Avinash Utekar",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "parcel": "^2.10.2",
+    "postcss": "^8.4.31",
+    "tailwindcss": "^3.3.5"
+  },
+  "dependencies": {
+    "htmx.org": "^1.9.8"
+  },
+  "scripts": {
+    "watch": "rm -rf dist .parcel-cache && parcel watch 'templates/*.html' 'templates/partials/*.html'",
+    "build": "rm -rf dist .parcel-cache && parcel build 'templates/*.html' 'templates/partials/*.html'"
+  }
+}
